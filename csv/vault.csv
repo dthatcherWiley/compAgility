@@ -1,0 +1,15 @@
+"","",People,Process,Technology
+Your Data Set Dimensions Mean,"",2.75,2.25,2.56
+Comparative Benchmark Dimensions Mean,"",,,
+Dimensions Difference From Comparative Mean,"",,,
+""
+"","",People - Ownership and Accountability,People -Collaboration,People -Empowerment,People -Learning Culture,Process - Automation,Process - Change Management,Process - Collaboration,Process - Continuous Improvement,Process - Light Weight,Process - Metrics,Process - Transparent,Process - Trustful,Tech - Automation,Tech - Infrastructure as Code,Tech - Collaboration,Tech - Continuous Integration (CI),Tech - Continuous Delivery (CD),Tech - Monitoring,Tech - Empowerment,Tech - Non-Functional Requirements,Tech - Small Batch
+Your Data Set Questions Mean,"",3.0,3.0,3.0,2.0,2.0,3.0,3.0,2.0,2.0,2.0,2.0,2.0,3.0,3.0,4.0,1.0,3.0,3.0,2.0,2.0,2.0
+Comparative Benchmark Questions Mean,"",,,,,,,,,,,,,,,,,,,,,
+Questions Difference From Comparative Mean,"",,,,,,,,,,,,,,,,,,,,,
+""
+Survey ID,Date,People - Ownership and Accountability,People -Collaboration,People -Empowerment,People -Learning Culture,Process - Automation,Process - Change Management,Process - Collaboration,Process - Continuous Improvement,Process - Light Weight,Process - Metrics,Process - Transparent,Process - Trustful,Tech - Automation,Tech - Infrastructure as Code,Tech - Collaboration,Tech - Continuous Integration (CI),Tech - Continuous Delivery (CD),Tech - Monitoring,Tech - Empowerment,Tech - Non-Functional Requirements,Tech - Small Batch
+95213,2020-11-14 15:18:06,3,3,3,2,2,3,3,2,2,2,2,2,,,,,,,,,
+95214,2020-11-14 15:19:46,3,3,3,2,2,3,3,2,2,2,2,2,,,,,,,,,
+95215,2020-11-14 15:26:35,,,,,,,,,,,,,3,3,4,1,3,3,2,2,2
+

@@ -1,0 +1,20 @@
+"","",People,Process,Technology
+Your Data Set Dimensions Mean,"",2.84,2.97,2.82
+Comparative Benchmark Dimensions Mean,"",,,
+Dimensions Difference From Comparative Mean,"",,,
+""
+"","",People - Ownership and Accountability,People -Collaboration,People -Empowerment,People -Learning Culture,Process - Automation,Process - Change Management,Process - Collaboration,Process - Continuous Improvement,Process - Light Weight,Process - Metrics,Process - Transparent,Process - Trustful,Tech - Automation,Tech - Infrastructure as Code,Tech - Collaboration,Tech - Continuous Integration (CI),Tech - Continuous Delivery (CD),Tech - Monitoring,Tech - Empowerment,Tech - Non-Functional Requirements,Tech - Small Batch
+Your Data Set Questions Mean,"",3.12,3.0,2.62,2.62,2.88,3.0,2.75,2.75,3.5,2.5,3.12,3.25,2.12,3.12,3.38,2.75,3.25,2.75,3.12,2.62,2.25
+Comparative Benchmark Questions Mean,"",,,,,,,,,,,,,,,,,,,,,
+Questions Difference From Comparative Mean,"",,,,,,,,,,,,,,,,,,,,,
+""
+Survey ID,Date,People - Ownership and Accountability,People -Collaboration,People -Empowerment,People -Learning Culture,Process - Automation,Process - Change Management,Process - Collaboration,Process - Continuous Improvement,Process - Light Weight,Process - Metrics,Process - Transparent,Process - Trustful,Tech - Automation,Tech - Infrastructure as Code,Tech - Collaboration,Tech - Continuous Integration (CI),Tech - Continuous Delivery (CD),Tech - Monitoring,Tech - Empowerment,Tech - Non-Functional Requirements,Tech - Small Batch
+94973,2020-11-13 12:52:57,3,3,3,2,3,3,3,3,4,3,4,4,2,4,4,4,4,3,4,2,3
+94985,2020-11-13 13:14:29,3,4,3,3,3,3,3,3,4,2,2,4,2,4,3,3,4,3,3,3,2
+94984,2020-11-13 13:06:46,3,2,3,2,3,3,3,3,4,3,4,4,2,4,4,3,4,3,3,2,2
+94986,2020-11-13 13:19:35,4,3,2,3,3,3,3,3,3,2,4,3,3,3,3,2,3,3,4,3,2
+94990,2020-11-13 14:00:34,3,3,3,3,3,3,3,3,4,3,3,3,3,3,4,3,4,3,4,4,3
+94991,2020-11-13 14:06:28,3,3,2,2,2,3,2,2,2,2,2,2,1,1,2,1,1,2,2,2,1
+94992,2020-11-13 14:12:49,3,3,2,2,3,3,2,2,3,2,2,2,2,2,3,3,2,2,2,3,2
+95012,2020-11-13 15:14:09,3,3,3,4,3,3,3,3,4,3,4,4,2,4,4,3,4,3,3,2,3
+
