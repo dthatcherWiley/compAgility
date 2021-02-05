@@ -1,0 +1,3 @@
+tasks:
+-  command: javac ProcessDirCSV.java
+-  command: chmod 777 run.sh
