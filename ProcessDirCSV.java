@@ -4,8 +4,7 @@ import java.util.Iterator;
 import java.util.Scanner;
 import java.util.Vector;
 public class ProcessDirCSV {    public static void main(String args[]) throws IOException {
-      //Test fork
-      //Test fork 2
+      
       File directoryPath = new File("./csv");
       //List of all files and directories
       String contents[] = directoryPath.list();
