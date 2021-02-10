@@ -38,7 +38,7 @@ public class ProcessDirCSV {    public static void main(String args[]) throws IO
                 tblCntr = 0;
             }
         }
-      System.out.println("HashMap = " +progTBL.toString());
+      //System.out.println("HashMap = " +progTBL.toString());
       System.out.println("Program,System,Category,Maturity Score");
       for(int i=0; i<contents.length; i++) {
         
