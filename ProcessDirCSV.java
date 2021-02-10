@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Scanner;
 import java.util.Vector;
@@ -16,8 +17,29 @@ public class ProcessDirCSV {    public static void main(String args[]) throws IO
       int sysCntr = 0;
       int catCntr = 0;
       int scoreCntr = 0;
-      
-      System.out.println("System,Category,Maturity Score");
+
+      HashMap<String, String> progTBL = new HashMap<String, String>();
+      Scanner programTable = new Scanner(new File("./csv/ProgramTable.csv")); 
+      programTable.useDelimiter(","); 
+      int tblCntr = 0;
+      String key = "";
+      String value = "";
+      while (programTable.hasNext())  //returns a boolean value  
+        {  
+            tblCntr++;
+            if (tblCntr == 1){
+                key = programTable.next().trim();
+            }
+            if (tblCntr == 2){
+                value = programTable.next().trim();
+                progTBL.put(key, value);
+                value = "";
+                key = "";
+                tblCntr = 0;
+            }
+        }
+      System.out.println("HashMap = " +progTBL.toString());
+      System.out.println("Program,System,Category,Maturity Score");
       for(int i=0; i<contents.length; i++) {
         
          String filename = contents[i];
@@ -27,7 +49,8 @@ public class ProcessDirCSV {    public static void main(String args[]) throws IO
             Scanner sc = new Scanner(new File("./csv/" + filename));    
             sc.useDelimiter(",");   //sets the delimiter pattern 
             int firstOccurence=0;
-            String scat=filename;            
+            String scat=filename; 
+            
             system.add(sysCntr, filename);
             sysCntr++;
 
@@ -77,6 +100,7 @@ public class ProcessDirCSV {    public static void main(String args[]) throws IO
                     Iterator iscore = score.iterator();   
                     
                     while (icategory.hasNext()) { 
+                        System.out.print(progTBL.get(printSystem)+",");
                         System.out.print(printSystem + ",");
                         System.out.print(icategory.next());
                         if (iscore.hasNext()) { 

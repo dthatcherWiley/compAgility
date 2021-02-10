@@ -1,0 +1,43 @@
+Program,System,Category,Maturity Score
+null,test,People - Ownership and Accountability,3.12
+null,test,People -Collaboration,3.0
+null,test,People -Empowerment,2.62
+null,test,People -Learning Culture,2.62
+null,test,Process - Automation,2.88
+null,test,Process - Change Management,3.0
+null,test,Process - Collaboration,2.75
+null,test,Process - Continuous Improvement,2.75
+null,test,Process - Light Weight,3.5
+null,test,Process - Metrics,2.5
+null,test,Process - Transparent,3.12
+null,test,Process - Trustful,3.25
+null,test,Tech - Automation,2.12
+null,test,Tech - Infrastructure as Code,3.12
+null,test,Tech - Collaboration,3.38
+null,test,Tech - Continuous Integration (CI),2.75
+null,test,Tech - Continuous Delivery (CD),3.25
+null,test,Tech - Monitoring,2.75
+null,test,Tech - Empowerment,3.12
+null,test,Tech - Non-Functional Requirements,2.62
+null,test,Tech - Small Batch,2.25
+null,Vault,People - Ownership and Accountability,3.0
+null,Vault,People -Collaboration,3.0
+null,Vault,People -Empowerment,3.0
+null,Vault,People -Learning Culture,2.0
+null,Vault,Process - Automation,2.0
+null,Vault,Process - Change Management,3.0
+null,Vault,Process - Collaboration,3.0
+null,Vault,Process - Continuous Improvement,2.0
+null,Vault,Process - Light Weight,2.0
+null,Vault,Process - Metrics,2.0
+null,Vault,Process - Transparent,2.0
+null,Vault,Process - Trustful,2.0
+null,Vault,Tech - Automation,3.0
+null,Vault,Tech - Infrastructure as Code,3.0
+null,Vault,Tech - Collaboration,4.0
+null,Vault,Tech - Continuous Integration (CI),1.0
+null,Vault,Tech - Continuous Delivery (CD),3.0
+null,Vault,Tech - Monitoring,3.0
+null,Vault,Tech - Empowerment,2.0
+null,Vault,Tech - Non-Functional Requirements,2.0
+null,Vault,Tech - Small Batch,2.0
