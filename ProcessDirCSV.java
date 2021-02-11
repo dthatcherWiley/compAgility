@@ -128,6 +128,9 @@ public class ProcessDirCSV {    public static void main(String args[]) throws IO
                         if (iscore.hasNext()) { 
                             System.out.print(",");
                             String S = iscore.next().toString();
+                            if (S.isBlank()) {
+                                S="0";
+                            }
                             float f=Float.parseFloat(S);
                             int cat = Math.round(f);
                             String s=String.valueOf(cat).trim();
