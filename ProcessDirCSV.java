@@ -19,6 +19,8 @@ public class ProcessDirCSV {    public static void main(String args[]) throws IO
       int scoreCntr = 0;
 
       HashMap<String, String> progTBL = new HashMap<String, String>();
+      HashMap<String, String> scoreTBL = new HashMap<String, String>();
+
       Scanner programTable = new Scanner(new File("./csv/ProgramTable.csv")); 
       programTable.useDelimiter(","); 
       int tblCntr = 0;
@@ -38,8 +40,28 @@ public class ProcessDirCSV {    public static void main(String args[]) throws IO
                 tblCntr = 0;
             }
         }
-      //System.out.println("HashMap = " +progTBL.toString());
-      System.out.println("Program,System,Category,Maturity Score");
+        
+        Scanner scoreTable = new Scanner(new File("./csv/ScoreTable.csv")); 
+        scoreTable.useDelimiter(","); 
+        tblCntr = 0;
+        key = "";
+        value = "";
+         while (scoreTable.hasNext())  //returns a boolean value  
+        {  
+            tblCntr++;
+            if (tblCntr == 1){
+                key = scoreTable.next().trim();
+            }
+            if (tblCntr == 2){
+                value = scoreTable.next().trim();
+                scoreTBL.put(key, value);
+                value = "";
+                key = "";
+                tblCntr = 0;
+            }
+        }
+      //System.out.println("HashMap = " +scoreTBL.toString());
+      System.out.println("Program,System,Category,Maturity Model Rate,Maturity Score");
       for(int i=0; i<contents.length; i++) {
         
          String filename = contents[i];
@@ -105,7 +127,13 @@ public class ProcessDirCSV {    public static void main(String args[]) throws IO
                         System.out.print(icategory.next());
                         if (iscore.hasNext()) { 
                             System.out.print(",");
-                            System.out.println(iscore.next());
+                            String S = iscore.next().toString();
+                            float f=Float.parseFloat(S);
+                            int cat = Math.round(f);
+                            String s=String.valueOf(cat).trim();
+                            System.out.print(scoreTBL.get(s) + ",");
+                            System.out.println(s);
+                            // System.out.println(iscore.next());
                         }
                        
                     } 
