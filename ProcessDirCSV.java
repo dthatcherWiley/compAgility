@@ -61,7 +61,7 @@ public class ProcessDirCSV {    public static void main(String args[]) throws IO
             }
         }
       //System.out.println("HashMap = " +scoreTBL.toString());
-      System.out.println("Program,System,Category,Maturity Model Rate,Maturity Score");
+      System.out.println("Program,System,Key DevOps Tenents,Maturity Model Rate,Initial,Repeatable,Defined,Managed,Optimized");
       for(int i=0; i<contents.length; i++) {
         
          String filename = contents[i];
@@ -135,7 +135,25 @@ public class ProcessDirCSV {    public static void main(String args[]) throws IO
                             int cat = Math.round(f);
                             String s=String.valueOf(cat).trim();
                             System.out.print(scoreTBL.get(s) + ",");
-                            System.out.println(s);
+                            //System.out.println(s);
+                            if (cat==0){
+                                System.out.println("0,,,,");
+                            }
+                            if (cat==1){
+                                System.out.println(s+",,,,");
+                            }
+                            if (cat==2){
+                                System.out.println(","+s+",,,");
+                            }
+                            if (cat==3){
+                                System.out.println(",,"+s+",,");
+                            }
+                            if (cat==4){
+                                System.out.println(",,,"+s+",");
+                            }
+                            if (cat==5){
+                                System.out.println(",,,,"+s);
+                            }
                             // System.out.println(iscore.next());
                         }
                        
